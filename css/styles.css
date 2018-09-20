@@ -1,0 +1,33 @@
+*, body, html {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+.panels {
+    display: flex;
+    min-height: 100vh;
+}
+
+/*  Images for panels  */
+
+.panel1 {
+    background-image: url('../img/beach.svg');
+}
+.panel2 {
+    background-image: url('../img/book.svg');
+}
+.panel3 {
+    background-image: url('../img/fall.svg');
+}
+.panel4 {
+    background-image: url('../img/hangout.svg');
+}
+.panel5 {
+    background-image: url('../img/trip.svg');
+}
