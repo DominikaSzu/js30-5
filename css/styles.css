@@ -64,20 +64,20 @@ html {
 
 .panel > *:first-child {
     transform: translateY(-100%);
+    font-size: 1em;
 }
 
 .panel.open-active > *:first-child {
     transform: translateY(0);
-    font-size: 1em;
 }
 
 .panel > *:last-child {
     transform: translateY(100%);
+    font-size: 1em;
 }
 
 .panel.open-active > *:last-child {
     transform: translateY(0);
-    font-size: 1em;
 }
 
 .panel p {
@@ -86,6 +86,6 @@ html {
 }
 
 .panel.open {
-    font-size: 40px;
+    font-size: 50px;
     flex: 5;
 }
